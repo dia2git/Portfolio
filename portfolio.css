@@ -1,0 +1,120 @@
+body,h1,h2,h3,h4,h5,h6{font-family: 'Yellowtail', cursive;}
+body{
+    background-image:url("https://images.unsplash.com/photo-1523766775147-152d0d6e2adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60.jpg") ;
+    background-color:slategray;
+    background-position: center;
+    background-repeat: inherit;
+    margin-top: 20px;
+    padding: 10px;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 100px;
+    opacity: 75%;
+}
+
+h1{
+    font-size: 100px;
+}
+h6{
+  font-size: 50px;
+  margin:10px
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    margin-top:30px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: rgb(215, 154, 223);
+    padding: 10px;
+    height: 2200px;
+    width: 100px;
+    justify-content: space-evenly;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: rgb(126, 160, 194);
+    padding: 10px;
+    height: 2200px;
+    width: 100px;
+    flex: 50%;
+  }
+ 
+  @media (max-width: 1400px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+  a:link {
+    color: rgba(38, 15, 247, 0.959);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  footer{
+    background-color: rgb(235, 132, 158);
+    text-align:center;
+}
+
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+.container1 {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #9585ee;
+  justify-content: space-evenly;
+}
+.containe1r > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+  
+  
+
+  
+  
