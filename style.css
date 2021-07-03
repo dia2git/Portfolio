@@ -1,6 +1,7 @@
 body,h1,h2,h3,h4,h5,h6{font-family: 'Yellowtail', cursive;}
 body{
-       background-color:slategray;
+       background-image:url("https://images.unsplash.com/photo-1554189097-ffe88e998a2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFzdGVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60.jpg");
+     background-color:slategray;
     background-position: center;
     background-repeat: inherit;
     margin-top: 20px;
